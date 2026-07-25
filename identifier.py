@@ -1,9 +1,8 @@
 Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
-.0
-0.0
+Enter "help" below or click "Help" above for more info
+                        #identifire:
 
-                        #identifire.
+
  # it is the name of the python program like variable, function, module, object.
  
 
@@ -24,6 +23,7 @@ Enter "help" below or click "Help" above for more information.
 123
 >>> 
 >>> #Rule02:
+
 >>> #in identifier part should not starts with number but we can use in between or end of the identifier.
 >>> 
 >>> 45ab="hi"
@@ -33,6 +33,7 @@ SyntaxError: invalid decimal literal
 >>> ab45
 'hi'
 >>> #Rule03:
+
 >>> 
 >>> #in identifier parts we cant give special character except (_)underscore
 >>> 
@@ -52,6 +53,8 @@ _753
 
 
 #rule04:
+
+
 #in identifier parts we cant use keywords
 
 in=56
@@ -62,6 +65,8 @@ In
 75
 
 #Rule05:
+
+
 #in identifier parts we can pass unlimited character but #according to the PEP8 rule we can pass 79 character
 
 
@@ -71,7 +76,9 @@ In
 # if the rule is valid output should be true
 #if the rule is invalid then output should be false
 
+
 #EXAMPLE:
+
 
 ca$sh=100
 SyntaxError: invalid syntax
