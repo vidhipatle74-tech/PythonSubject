@@ -1,4 +1,5 @@
-
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
 #IF_ELSE:
 
 #if the given condition is true it will execute, in true state block ,
@@ -29,14 +30,14 @@
 
 #WAP the program to check the given number is even
 
-#a=67
+a=67
 ##WAP the program to check the given number is even or odd
 
 
 #write a program to checck the password id matching or not.
 #user input
 
-'''user=eval(input("enter the Name"))
+user=eval(input("enter the Name"))
 password=eval(input("enter the Password"))
 
 
@@ -45,27 +46,5 @@ if user=="PYthon" and password=="PY":
 
 else:
     print("Both username and Password not matching")
-'''
 
-
-#s={1:2,4:5,8:9}
-
-#wap to check the given dictionary length  is even print as it is  , else add one
-#key and value pair make it as a given
-
-s={1:2,4:5,8:9}
-
-if len(s)%2==0:
-    print(s)
-
-else:
-    s[100]="HII"
-print(s)
-
-
-
-
-#wap the program to check the given number is odd  if it is odd print as it is
-#else if it is even convert it into negative.
-
-num=eval(input())
+    
