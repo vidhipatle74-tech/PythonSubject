@@ -68,4 +68,4 @@ print(s)
 #wap the program to check the given number is odd  if it is odd print as it is
 #else if it is even convert it into negative.
 
-num=eval(input())
+num=eval(input("enter the number :"))
