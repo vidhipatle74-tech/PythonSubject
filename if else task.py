@@ -126,5 +126,9 @@ else:
 string with the first and last characters switched, otherwise the display the 3
 copies of given string.'''
 
-
-
+a="python"
+if len(a)>2:
+    print(a[-1]+a[1:5:1]+a[0])
+else:
+    print(a*3)
+    
