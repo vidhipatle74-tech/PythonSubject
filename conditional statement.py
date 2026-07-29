@@ -33,3 +33,29 @@
 
 #(2)--> if-else condition:
 
+#if the given condition is true it will executes in true state block (TSB)
+
+#BUT
+
+#if the given condition becomes false it will won't shiw blank space , it will executes in false state block(FSB)
+
+#SYNTAX:
+
+#          if condition:
+#         <--> statement -->(TSB)
+#         else:
+#              statement -->(FSB)
+
+
+
+#FLOWCHART:
+
+#                              START
+#                               |
+#             true          condition               false
+#           --------------------------------------------
+#           |                                           |
+#      It will execute                    It will executes in 
+#       (true state block )                 ( false stete block)
+
+
