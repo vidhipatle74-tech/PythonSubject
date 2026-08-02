@@ -1,61 +1,48 @@
+#WAP to build a simple menu-driven food ordering system. Accept a menu number from the user and
+#display the corresponding food item along with its price. If the entered menu number is invalid,
+#print "Invalid Menu".
+
+#WAP to check the teacher's mood based on the percentage of assignments submitted by the class.
+#Conditions:If 100% of the assignments are submitted, print "Teacher is Very Happy ".
+#Else if the percentage is between 75% and 99%, print "Teacher is Happy".
+#Else if the percentage is between 50% and 74%, print "Teacher is Angry   ".
+#Otherwise (below 50%), print "Surprise Test Tomorrow!  "
+
+percentage=eval(input("enter the number"))
+assignment=eval(input("enter the percentage"))
+
+if percentage==100:
+    print("teacher is very happy")
+
+elif 75<=percentage<=99:
+    print("Teacher is happy")
+
+elif 50<=percentage<=74:
+    print("Teacher is angry")
+
+else:
+    print("Surprise test tomorrow")
 
 
 
-                          #CONDITIONAL STATEMENT:
+#WAP to suggest a weekend plan based on the user's money and mobile battery percentage.
 
-#It controls the flow of the program execution  based on the given conditions.
+#Money ≥ ₹1000 and Battery ≥ 80% → Go on a Trip 🏖️
+#Money ≥ ₹500 and Battery ≥ 50% → Watch a Movie 🍿
+#Money ≥ ₹200 and Battery ≥ 20% → Go to a Café ☕
+#Otherwise → Stay Home and Study Python 🐍
 
+'''battery=eval(input("enter the percentage"))
+money=eval(input("enter the money"))
 
- #TYPES:
+if money>=1000 and battery>=80:
+    print("go on a trip")
 
-#(1)--> simple if / if condition
-#(2)--> if-else condition
-#(3)--> elif condition
-#(4)--> nested if-else condition
+elif money>=500 and battery>=50:
+    print("watch a movie")
 
+elif money>=200 and battey>=20:
+    print("go to a cafe")
 
-#(1)--> simple if / if condition:
-
-#if the given condition is working it will excute inside the true state block(TSB).
-#if the given condition is not satisfied it will show blank space (FSB).
-
-
-#FLOWCHART:
-
-#                              START
-#                               |
-#             true              |               false
-#           --------------------------------------------
-#           |                                           |
-#      It will execute                    It will skip the code and
-#       true state block                  it will show blank space 
-
-
-#(2)--> if-else condition:
-
-#if the given condition is true it will executes in true state block (TSB)
-
-#BUT
-
-#if the given condition becomes false it will won't shiw blank space , it will executes in false state block(FSB)
-
-#SYNTAX:
-
-#          if condition:
-#         <--> statement -->(TSB)
-#         else:
-#              statement -->(FSB)
-
-
-
-#FLOWCHART:
-
-#                              START
-#                               |
-#             true          condition               false
-#           --------------------------------------------
-#           |                                           |
-#      It will execute                    It will executes in 
-#       (true state block )                 ( false stete block)
-
-
+else:
+    print("stay home and study python")'''
