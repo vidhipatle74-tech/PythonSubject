@@ -2,12 +2,32 @@
 #display the corresponding food item along with its price. If the entered menu number is invalid,
 #print "Invalid Menu".
 
+food=eval(input("enter the number"))
+
+if food==1:
+    print("poha %d"%(25))
+
+elif food==2:
+    print("samosa %d"%(20))
+
+elif food==3:
+    print("idli %d"%(30))
+
+elif food==4:
+    print("kachori%d"%(15))
+
+elif food==5:
+    print("fried rice%d"%(80))
+
+else:
+    print("invalid menu")
+
 #WAP to check the teacher's mood based on the percentage of assignments submitted by the class.
 #Conditions:If 100% of the assignments are submitted, print "Teacher is Very Happy ".
 #Else if the percentage is between 75% and 99%, print "Teacher is Happy".
 #Else if the percentage is between 50% and 74%, print "Teacher is Angry   ".
 #Otherwise (below 50%), print "Surprise Test Tomorrow!  "
-
+'''
 percentage=eval(input("enter the number"))
 assignment=eval(input("enter the percentage"))
 
@@ -22,7 +42,7 @@ elif 50<=percentage<=74:
 
 else:
     print("Surprise test tomorrow")
-
+'''
 
 
 #WAP to suggest a weekend plan based on the user's money and mobile battery percentage.
