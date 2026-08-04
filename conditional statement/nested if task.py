@@ -150,3 +150,39 @@ if user in theatre:
         print("wrong movie selected")
 else:
     print("wrong theatre selected")
+
+
+
+#7.wap to purchase a phone from the shopping app
+#apps=[“flipkart”,”amazon”]
+#categories=[“electronics”,”mobile”,”fashion”,”furnitures”]
+
+app=eval(input("enter the app"))
+user=eval(input("enter the user"))
+
+if user in apps:
+    print(f'user purchase product from app')
+    
+    apps=["flipkart","Amazon"]
+    user1=eval(input("enter the app name"))
+
+    if user1 in apps:
+        print(f'here {user} is selected to app and {user1} is purchase product from app')
+
+        phone_price=[15000,25000,35000,45000]
+        amount=eval(input("enter the amount"))
+
+        if amount=
+        
+        
+    
+
+
+#8.wap to give 10% off only who is purchasing in credit card and min 3 product should purchase and
+#each product price should be more than 500
+
+
+
+
+#9.wap to perform list operations user should enter only list data type,if options 1 pop().
+#options 2 sort() options 3 clear() invalid options,invalid data type
