@@ -1,4 +1,4 @@
-#NESTED IS STATEMENT:
+#NESTED IF STATEMENT:
 
 #if statement inside another if statement is known as nested if statement.
 
