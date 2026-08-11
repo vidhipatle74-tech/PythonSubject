@@ -253,5 +253,80 @@ print('The count of digit is:',number)
 print('The count of space is:',space)
             
 '''
-    
-       
+----------------------------------------------------------------------------------------------------------------------------
+#26.wap to check how many words are present
+# in the given sentence
+a="hello world sentence"
+b=a.split()
+print(b) #['hello', 'world', 'sentence']
+total=0
+for i in b:
+    total=total+1
+print(total)
+'''
+--------------------------------------------------------------------------------------------------------------------------
+# 27.wap to create a dictionary and print the characters
+# and its Ascii value pair
+s="hello world"
+# output:--> {"h":ascii value,"e":ascii value........}
+d={}
+for i in s:
+    d.update({i:ord(i)})
+print(d)
+
+d={}
+for i in s:
+    d[i]=ord(i)
+print(d)
+'''
+---------------------------------------------------------------------------------------------------------------------------------------
+'''
+# 28.wap to create a dictionary and
+# traverse into it and if the length is
+# even print as it else reverse it
+names=["apple","google","yahoo","microsoft","gmail","walmart"]
+# output:-->{'apple': 'elppa', 'google': 'google', 'yahoo': 'oohay', 'microsoft': 'tfosorcim', 'gmail': 'liamg', 'walmart': 'tramlaw'}
+d={}
+for i in names:
+    if len(i)%2==0:
+        d[i]=i
+    else:
+        d[i]=i[::-1]
+print(d)
+'''
+----------------------------------------------------------------------------------------------------------------------------------------
+# 29.wap to print series of factorial(take user input)
+num=eval(input("enter the Number"))
+fact=1
+for i in range(1,num+1,1):
+    fact=fact*i
+    print(i)
+print(fact)
+"""
+fact=1
+i=1
+fact=fact*i----> fact=1*1----=1
+i=2
+fact=fact*i----> fact=1*2----=2
+
+i=3
+fact=fact*i----->fact=2*3----=6
+
+i=4
+fact=fact*i---> fact=6*4----=24
+
+i=5
+fact=fact*i---> fact=24*5---=120    
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+#(30)wap to create a dictionary with element and its count pair.
+l=["yellow","red","black","pink","orange","green","red","pink","yellow"]
+'''
+a={}
+for i in l:
+    a [i]=l.count(i)
+print(a)
+
+#output-->{'yellow': 2, 'red': 2, 'black': 1, 'pink': 2, 'orange': 1, 'green': 1}
+'''
+--------------------------------------------------------------------------------------------------------------------------------------------------
+      

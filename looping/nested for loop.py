@@ -13,19 +13,16 @@
 
       #syntax:    for inner in iterable:
       #           <-->statement
-
+#wap to print even number from the given nested list
+'''
 s=[[1,2,3],[4,5,6],[7,8,9]]
 for i in s:
     print(i)
     for j in i:
         if j%2==0:
             print(j)
-
-
-
-
-
 '''
+
 #wap to print even length
 
 e=[["good","bad","mad"],["sql"],["lovely","done","deal"]]
@@ -34,5 +31,6 @@ for i in e:
     for j in i:
         if len(e)==0:
             print(i)
+            
 
 '''

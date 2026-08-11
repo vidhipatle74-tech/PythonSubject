@@ -4,6 +4,7 @@
 #       --> if you want to stop the execution immediately that time we use break keyword.
 #      --> once your condition becomes false automatically it will move to next line.
 #      --> once your condition becomes  true  automatically it will stops the execution immediately.
+#      --> it is also known as tranverse statement
 '''
 a="Good Morning"
 stop="d"
@@ -36,6 +37,7 @@ for i in s:
 #-------------------------------------------------------------------------------------------
 #        --> if the condition becomes true it will skip that number which are in condition.
 #        --> it will skip the current iteration and move to next number.
+#      --> it is also known as tranverse statement
 '''
 s="python class"
 stop="n"
@@ -50,16 +52,17 @@ for i in s:
         continue
     print(i,end=" ")  #o/p--> pytho class  (n)->current iteration skip.
 '''
-
+#-------------------------------------------------------------------------------------------
 #PASS:
-
-#--> if you want to avoid indentetion error you can use pass kayword
-#--> we can holds the case using pass keyword.
-#--> in the place of pass-->(...)
-
+#-------------------------------------------------------------------------------------------
+#     --> if you want to avoid indentetion error you can use pass kayword
+#     --> we can holds the case using pass keyword.
+#     --> in the place of pass-->(...)
+#     --> it is also known as tranverse statement
+'''
 k=[1,2,3,4,5,6,7]
 for i in k:
     if i%2==0:
-        ...
+        pass
     print(i)
-
+'''
