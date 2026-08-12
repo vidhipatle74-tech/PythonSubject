@@ -123,27 +123,12 @@ for i in num:
 
 
 '''
-#11.wap to print repeated char and count the same
-s="helloworld"
 
 
-#12.Grouping flowers and animals separately
-items=["lotus-flower","lilly-flower","cat-animal","dog-animal","sunflower-flower"]
 
-
-#13.filter only character except digits
-s="Think456 and 123answers it789 guys "
-
-#14.replace whitespaces with newline char 
-# in the below string
-s="hello world welcome to python"
-
-#15.replace all vowels with *
-s="hello world welcome to python"
-
-
-#wap to check the given number is Armstrong number
+#(11)wap to check the given number is Armstrong number
 #or Not.
+
 a=153
 total=0
 b=str(a) #------->153------>'153'
@@ -158,7 +143,7 @@ if total==a:
 else:
     print('its Not')
 
-#wap to print 2 to 10 table
+#(12)wap to print 2 to 10 table
 for i in range(1,11):
     for j in range(2,11):
         print(i*j,end=" ")
