@@ -62,7 +62,7 @@ else:
 '''
 
 #wap to check the number is armstrong or not.
-
+'''
 num=int(input("entre the number"))
 dum=num
 num_len=len(str(num))
@@ -76,3 +76,31 @@ if out==dum:
     print("ita a armstrong")
 else:
     print("its not a armstrong")
+
+#o/p-->
+#      entre the number:153
+#      ita a armstrong
+'''
+
+#disarium  number.
+'''
+num=int(input("entre the number:"))
+dum=num
+num_len=len(str(num))
+out=0
+
+while num>0:
+    l_d=num%10
+    out+=l_d**num_len
+    num_len-=1
+    num//=10
+if out==dum:
+    print("ita a disariem number")
+else:
+    print("its not a disarium number")
+
+#o/p-->
+
+#      entre the number135
+#      ita a disariem number
+'''
