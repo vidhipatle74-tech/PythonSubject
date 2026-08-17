@@ -20,3 +20,4 @@
 
 a=4+5j
 bool(a)
+True.
