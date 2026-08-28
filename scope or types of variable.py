@@ -37,8 +37,8 @@
 #                              --> any variable is present outside  the  function then we can call it as a global variable 
 #                              --> global variable we can access any where  into the function  means inside the function
 #                                    or outside the function it will work
-#                              --> in global variable e can do modification outside without using any keyword
-#                             ---> but if we done any modification  insiode the function without keyword it will show unboundedlocal error.
+#                              --> in global variable we can do modification outside without using any keyword
+#                             ---> but if we done any modification  inside the function without keyword it will show unboundedlocal error.
 
 #How to do modification for global variable inside ----->
 
@@ -66,7 +66,7 @@ print(a)   #900
 #                                      --> any variable is present in between two function that type of variable  we can call it as a non local variable
 #                                      --> neither global nor local in between two function what variable  we are passing that one we can call it as a
 #                                            non local variable.
-#                                       --> how to do modification in non local variable inside ?????----> using non local keyword...
+#                                       --> how to do modification in non local variable m(outside)?????----> using non local keyword...
 
 #Example:-->
 """
