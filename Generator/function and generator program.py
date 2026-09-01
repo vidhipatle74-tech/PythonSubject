@@ -324,14 +324,6 @@ print(even_odd(56,34))
 #GENERATOR====>>>
 
 
-#a=[34,55,60,56,78,90,25,40]
-def divide(input):
-    for i in input:
-          if i % 5==0:
-              yield i
-print(list(divide([34,55,60,56,78,90,25,40])))
 
-       
-    
     
 

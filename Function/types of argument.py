@@ -1,4 +1,4 @@
-#while calling the argument , there are some types of arguments:
+ R#while calling the argument , there are some types of arguments:
 
 #(1)-->* positional argument*                      ---->imp
 #(2)-->* keyword  argument*                      ----> imp
@@ -53,7 +53,7 @@ demo(x=10,y=20,z=30)
 #demo()--> error
 
 
-# demo(1,2)---->  1-error
+# demo(1,2)---->  1-error 
 
 #(3)--> only positional argument(/):
 
@@ -75,7 +75,7 @@ spam(a=10,b=20,c=30,)
 """
 
 
-#(4)--> only keyword argumerernt:-->
+#(4)--> only keyword argument:-->
 
 #---> before the * symbol we can pass both positional and keyword argument
 #       but,
