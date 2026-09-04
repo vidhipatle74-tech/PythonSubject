@@ -52,8 +52,8 @@ class student:
        # print(f'the student name is {cls.name}')
       #  print(f'the subject name is {cls.sub}')
 
-        cls.name="abhi"
-        cls.sub="java"
+        student.name="abhi"
+        student.sub="java"
         print(f'the student name is {student.name}')
         print(f'the subject name is {student.sub}')
 
@@ -63,6 +63,8 @@ student.show_data()
 #              the subject name is java
 
 #ANOTHER WAY ==>>>
+#by using cls-->
+
 """
 class school:
     fees=50000
@@ -82,7 +84,8 @@ x.updated_data()
 #o/p--> the total  fees is 50000
 #             the updated school fees is 70000
 
-
+#by using classname-->
+"""
 class school:
     fees=50000
 
@@ -92,10 +95,67 @@ class school:
 
     @classmethod
     def updated_data(cls):
-        school.fees="70000"
+        cls.fees="70000"
         print(f'the updated school fees is {school.fees}')
 x=school()
 x.data()
 x.updated_data()
+"""
+#o/p-->the total  fees is 50000
+#           the updated school fees is 70000
 
 
+# Class variable of we are not accessing in class method  and
+# outside we are doing modification
+# it will affect for both classname and object-->
+
+#by using classname-->
+"""
+class person:
+    name="ram"
+
+    @classmethod
+    def data(cls):
+        print(f'the person name is {person.name}')
+person.data()
+person.name="vidhi"
+print(person.name)
+"""
+#o/p--> the person name is ram
+#            vidhi
+
+#by using object-->
+"""
+class person:
+    name="ram"
+
+    @classmethod
+    def data(cls):
+        name="ram"
+x=person()
+print(f'the person name is {x.name}')
+x.data()
+x.data="vidhi"
+print(x.data)
+"""
+#o/p--> the person name is ram
+#            vidhi
+
+
+
+# by using object--->
+
+class person:
+    name = "ram"      
+
+    @classmethod
+    def data(cls):
+        name="ram"
+        print(f'the person name is {x.name}')
+        x.data = "vidhi"
+        print(f'the person name is {x.name}')
+x = person()
+print(x.data)
+
+
+ 
