@@ -64,8 +64,7 @@ class person:
     def details(self,name,age):
         print(f'the name is{person.name}')
         print(f'the age is {person.age}')
-p=person()
-print()
+
         
     
  
