@@ -157,6 +157,8 @@ class person:
 x = person()
 print(x.data)
 """
+#Modification using classname after accessing class variable inside the class method --->
+#by classname-->
 """
 class employee:
     Ename="john"
@@ -171,15 +173,46 @@ print(f'The updated name of the employee is {employee.Ename}')
 #o/p--> The employee name is john
 #            The updated name of the employee is sanem
 
+#Modification using object after accessing the class variable inside the class method -->
+#by object-->
+
 class employee:
     Ename="john"
 
     @classmethod
     def show_data(cls):
         Ename="john"
+        print(f'The name of the employee is {e.show_data}')
 
 e=employee()
 e.show_data()
 print(f'The updated name of the employee is {e.show_data}')
-        
+
+#o/p--> The updated name of the employee is <bound method employee.show_data of <class '__main__.employee'>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
