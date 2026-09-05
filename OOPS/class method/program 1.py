@@ -144,7 +144,7 @@ print(x.data)
 
 
 # by using object--->
-
+"""
 class person:
     name = "ram"      
 
@@ -156,6 +156,30 @@ class person:
         print(f'the person name is {x.name}')
 x = person()
 print(x.data)
+"""
+"""
+class employee:
+    Ename="john"
 
+    @classmethod
+    def data(cls):
+        print(f'The employee name is {employee.Ename}')
+employee.data()
+employee.Ename="sanem"
+print(f'The updated name of the employee is {employee.Ename}')
+"""
+#o/p--> The employee name is john
+#            The updated name of the employee is sanem
 
- 
+class employee:
+    Ename="john"
+
+    @classmethod
+    def show_data(cls):
+        Ename="john"
+
+e=employee()
+e.show_data()
+print(f'The updated name of the employee is {e.show_data}')
+        
+
