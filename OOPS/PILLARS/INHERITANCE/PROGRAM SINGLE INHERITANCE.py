@@ -1,18 +1,14 @@
 class dad:
     cash=10000
     
-    def villa(self):
+    def villa(self):            #parent class method
         print(f"Dad's villa")
 
-class child(dad):
+class child(dad):            #child class method
     bike_name="bmw"
-
-    def home(self):
+9
+def home(self):
         print(f"dad's gift")
-
-
-
-    
 d=dad()
 d.villa()
 d.home()
