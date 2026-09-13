@@ -43,4 +43,14 @@ class review(hotel,customer):
 r=review("5**** rating",200)
 
 
+#o/p--> The name of the hotel is joy
+#           The area of the hotel is pune
+#           The pincode of the hotel area  is 441911
+#           The name of the customer is abhi
+#           The total member is 5
+#           The total bill of the customer is 6000
+#           The order number of the customer is b1234 
+#           The rating of the hotel is 5**** rating
+#          The tip of the bill is 200
+
         

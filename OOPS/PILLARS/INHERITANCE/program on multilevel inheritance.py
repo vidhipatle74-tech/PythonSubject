@@ -131,7 +131,7 @@ r.Information("Qspider","Python full stack",65000)
 r.subinfo("pyhton",10,'3hr')
 r.finalstage(500,'A-Grade')
   """
-
+"""
 class employee:
 
     def __init__(self,companyname,totalmember,highestpackage):
@@ -176,7 +176,7 @@ class  rules(startemployee):
             print(f'The role of the employee is {self.rolename}')
             
 r=rules('11 am','6 pm','bussiness analyst')     
-r.      
+"""      
 
 
 
