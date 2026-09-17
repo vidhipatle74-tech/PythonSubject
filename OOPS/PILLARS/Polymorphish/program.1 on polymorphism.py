@@ -1,5 +1,6 @@
 class operation:
     def __init___(self,a):
+        
 class point:
         def __init__(selfa,b):
         self.a=a
