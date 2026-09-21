@@ -63,7 +63,6 @@ class  Vehicle:
 
         print(f'The name of the vehicle is {self.Vname}')
         print(f'The type of the vehical is {self.Vtype}')
-
 class Bike(Vehicle):
 
     def start(self,Vnumber,engine):
@@ -205,7 +204,12 @@ class Book:
         self.available = True  
 
     def get_details(self):
-        status = "Available" if self.available else "Not Available"
+        status = "Available"
+        if self.available:
+             status = "Available"
+
+        else:
+            "Not Available"
         print(f"Title: {self.title}, Author: {self.author}, "
               f"ISBN: {self.isbn}, Status: {status}")
 
@@ -246,18 +250,18 @@ class BorrowedBook(Book):
         if not self.available:
             print(f"Borrowed by: {self.borrower_name}, Due date: {self.due_date}")
 
-book1 = BorrowedBook("The Alchemist", "Paulo Coelho", "ISBN001")
-book2 = BorrowedBook("1984", "George Orwell", "ISBN002")
+book1 = BorrowedBook("am i not enough", "vidhi patle", "vid001")
+book2 = BorrowedBook("2026", "vidhi patle", "pat002")
 
 print("Initial status:")
 book1.get_details()
 book2.get_details()
 
-print("\nBorrowing a book:")
+print("inBorrowing a book:")
 book1.borrow("Ravi Kumar", "2026-10-05")
 book1.get_details()
 
-print("\nTrying to borrow the same book again:")
+print("inTrying to borrow the same book again:")
 book1.borrow()  
 
 
