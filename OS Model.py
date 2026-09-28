@@ -12,10 +12,10 @@
 
 
 #Exa-->
-"""
-import os
-print(os.getcwd())
-"""
+
+#import os
+#print(os.getcwd())
+
 #o/p--><built-in function getcwd>----------without parenthesis
 #o/p--> C:\Users\vidhi\github\PythonSubject------with parenthesis
 
@@ -24,10 +24,10 @@ print(os.getcwd())
 #where we want to go
 
 #syntax--> os.chdir("path")
-"""
+
 import os
-os.chdir("any folder or file path")
-"""
+print(os.chdir(r"C:\Users\vidhi\github\PythonSubject"))
+
 #odd slash---> special sequence
 
 # /n--new line                          
@@ -107,9 +107,9 @@ os.rename("Hi.txt","Hello")
 
 #if we want to open file or folder we have to go for  popen fnction
 
-import os
-print(os.getcwd())
-os.chdir(r"C:\Users\vidhi\OneDrive\Desktop\E14")
-os.mkdir("java")
-os.rename("java.txt","SQL")
+#import os
+#print(os.getcwd())
+#os.chdir(r"C:\Users\vidhi\OneDrive\Desktop\E14")
+#os.mkdir("java")
+#os.rename("java.txt","SQL")
 

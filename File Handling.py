@@ -82,7 +82,6 @@
 
 import os
 print(os.getcwd())
-os.mkdir("pyhton")
 os.chdir(r"C:\Users\vidhi\OneDrive\Desktop\E14")
 
 #file=open("pen.txt","w")
